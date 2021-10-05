@@ -1,0 +1,465 @@
+html,body{
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  overflow: x: hidden !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+*{
+  text-decoration: none;
+}
+.nav{
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  right:0;
+  left: 0;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px 0 25px;
+  background-color: white;
+  box-shadow: 0 19px 30px rgba(0,0,0,0.10);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.nav .links a{
+  text-decoration: none;
+  margin-right: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+}
+.nav .links a:hover{
+  color: #e0563a;
+  border-radius: 45px;
+  transition: .5s;
+}
+.nav .links .home-link{
+  color: #e0563a;
+}
+.nav h4{
+  font-size: 30px;
+  font-weight: 800px;
+  margin-left: 60px;
+  font-family: 'Dancing Script', cursive;
+}
+.nav .logo{
+  color: #e0563a;
+}
+/* landing-page*/
+
+.landing-page{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10vw 0 10vw;
+  height: 100vh;
+}
+.landing-text h1{
+  font-size: 6vw;
+  margin: 0 !important;
+}
+.landing-text h2{
+  margin: 6px !important;
+  font-size: 30px;
+  line-height: 30px;
+  opacity: 0.5;
+  font-style: italic;
+}
+.landing-text .btn{
+  width: 150px;
+  margin-top:30px;
+  font-size:1.2vw;
+  padding: 10px 20px 10px 20px;
+  background-color:#e0563a;
+  border-radius: 45px;
+}
+ .landing-text .btn:hover{
+  background-color: white;
+  border-color:black;
+  color:red;
+  transition: .5s;
+}
+
+.landing-text .btn a{
+  color:white;
+  text-decoration: none;
+  font-size: 1.2vw;
+}
+
+/* About*/
+.about{
+  background-color: #0b2532;
+  color:white;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 10vw 0 10vw;
+  height: 60vh;
+  box-shadow: 0 19px 30px rgba(0,0,0,0.15);
+}
+.about-text h1{
+  padding-left:40px;
+  font-size: 30px;
+  font-weight: 200;
+  margin: 0 !important;
+}
+.about-text .btn-2{
+  margin-left:40px;
+  width: 170px;
+  margin-top:30px;
+  font-size:1.2vw;
+  padding: 10px 20px 10px 20px;
+  background-color:#e0563a;
+  border-radius: 45px;
+  text-align: center;
+}
+.about-text .btn-2 a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.2vw;
+}
+
+/* Skills*/
+.info-backdop{
+  background-image: url("info-bg.png");
+  background-size: cover;
+}
+.infoSection{
+  height:600px;
+  text-align: center;
+  margin-left: 70px;
+}
+.infoSection-2{
+  height: 450px;
+  text-align: center;
+}
+.infoSection-3{
+  height: 400px;
+  text-align: center;
+}
+.info-header{
+  text-align: center;
+  margin: 40px;
+}
+.info-header h1{
+  font-weight: 200;
+  font-style: italic;
+}
+
+.info-cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0 40px 0;
+}
+.info-cards .card{
+  position: relative;
+  height: 360px;
+  width: 350px;
+  background: white;
+  box-shadow: 0 19px 30px rgba(0,0,0,0.15);
+}
+.info-cards .one .cardoneImg{
+  width: 100px;
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
+.info-cards .two .cardtwoImg{
+  width: 100px;
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
+.info-cards .three .cardthreeImg{
+  width: 100px;
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
+.info-cards .four .cardfourImg{
+  width: 100px;
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
+.info-cards .five .cardfiveImg{
+  width: 100px;
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
+.info-cards .six .cardsixImg{
+  width: 100px;
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
+.info-cards .seven .cardsevenImg{
+  width: 100px;
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
+.cardbgone{
+  height: 150px;
+  background-color: #0b2532;
+}
+.cardbgtwo{
+  height: 150px;
+  background-color:#f7f7f7;
+}
+.cardbgthree{
+  height: 150px;
+  background-color:#e0563a;
+}
+.cardbgfour{
+  height: 150px;
+  background-color:#355971;
+}
+.cardbgfive{
+  height: 150px;
+  background-color:#e0563a;
+}
+.cardbgsix{
+  height: 150px;
+  background-color:#e68946;
+}
+.cardbgseven{
+  height: 150px;
+  background-color:#355971;
+}
+.cardcontent h2{
+  font-weight: 600;
+}
+.cardcontent p{
+  line-height: 30px;
+  opacity: 0.6;
+}
+.cardcontent .cardBtn{
+  position: absolute;
+  right: 20px;
+  padding: 10px;
+  background-color:white;
+  width: 25px;
+  height: 20px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all ease-in-out 0.2s;
+}
+.cardcontent .cardBtn:hover{
+  background-color:#e68946;
+}
+.cardcontent .cardBtn .cardIcon{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 16px;
+}
+
+/* Skills*/
+.contact-page{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10vw 0 10vw;
+  height: 40vh;
+}
+.contact-page .contact-text h1{
+  font-weight: 200;
+}
+.contact-page .contact-text p{
+  justify-content: center;
+  margin-right: 200px;
+}
+.contact-page .contact-text .social-icons img:hover{
+  background-color: white;
+  opacity: 0.6;
+  transition: 0.5s;
+}
+
+/*footer*/
+.footer-backdrop{
+  background-image: url("footer-bg.png");
+  background-size: cover;
+}
+.footer{
+  height: 75vh;
+  text-align: center;
+}
+.footer .footer-text h1{
+  padding-top: 300px;
+  color:white;
+  font-weight: 200;
+}
+.footer .footer-text p{
+  color:white;
+  justify-content: center;
+}
+.footer .btn{
+  width: 150px;
+  margin-top:10px;
+  font-size:1.2vw;
+  padding: 10px 20px 10px 20px;
+  background-color:#e0563a;
+  border-radius: 45px;
+}
+.footer .btn a{
+  color:white;
+  text-decoration: none;
+}
+
+/*Responsiveness*/
+@media only screen and (max-width: 600px){
+
+.nav{
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+  height: auto;
+  overflow-y: hidden;
+}
+.nav h4{
+  font-size: 6vw;
+  margin-top:5px;
+  margin-bottom: 14px;
+}
+.nav .links a{
+  margin-right: 25px;
+  font-size: 12px;
+  font-weight: 600;
+}
+/*landing page*/
+
+.landing-page{
+  flex-direction: column-reverse;
+  height: 750px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.landing-text h1{
+  font-size: 6vw;
+  margin: 0 !important;
+}
+.landing-text h2{
+  font-size:16px;
+}
+.landing-text .btn{
+  margin: 0 auto;
+}
+.landing-text .btn a{
+  font-size: 3vw;
+}
+.landing-image img{
+  width: 52vw;
+  margin-bottom: 20px;
+}
+
+/* about */
+.about{
+  height: auto;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-text{
+  padding: 0 50px;
+}
+.about-text .btn-2{
+  margin: 0 auto;
+}
+.about-text .btn-2 a{
+  font-size: 3vw;
+}
+.about-pic img{
+  width: 20vw;
+  top: 10px;
+  left: -30px;
+}
+/*Info*/
+.infoSection{
+  height: auto;
+}
+.infoSection-2{
+  height: auto;
+}
+.infoSection-3{
+  height: auto;
+}
+.info-header{
+  text-align: center;
+  margin: 40px 0 ;
+}
+.info-cards{
+ display: flex;
+ flex-direction: column;
+ padding: 50px;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+.info-cards .card{
+   margin-bottom: 60px;
+}
+/*Contact*/
+.contact-page{
+  flex-direction: column-reverse;
+  height: 250px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.contact-text h1{
+  font-size: 6vw;
+  margin: 0 !important;
+}
+.contact-text p{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size:18px;
+  margin: 0 !important;
+}
+.contact-image img{
+  width: 20vw;
+  top: 30px;
+  left: -30px;
+}
+/*Footer*/
+.footer{
+  flex-direction: column-reverse;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.footer-text{
+  padding-top: 100px;
+}
+.footer-text h1{
+  font-size: 6vw;
+  margin: 0 !important;
+  padding-bottom: 10px;
+}
+.footer-text p{
+  font-weight: 200;
+}
+.footer .btn{
+  margin: 0 auto;
+}
+.footer .btn a{
+  font-size: 3vw;
+}
+}
